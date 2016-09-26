@@ -4,6 +4,7 @@ git —version
 
 rvm
 curl -L get.rvm.io | bash -s stable
+	CLOSE AND OPEN NEW WINDOW
 	type rvm | head -1
 	rvm -v
 
