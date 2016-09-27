@@ -19,6 +19,14 @@ which ruby
 
 SASS
 
-gem install sass
+# Install SASS (which is a Ruby gem) on your computer.
+$ gem install sass 
 
-sass -v
+# Convert the input file to the output file.
+$ sass input_filename.scss output_filename.css
+
+# Automatically perform the compilation whenever the input file is changed.  
+$ sass --watch input_filename.scss:output_filename.css 
+
+# You can also watch an entire directory
+$ sass --watch app/sass:public/stylesheets
