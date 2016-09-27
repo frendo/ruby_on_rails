@@ -16,3 +16,9 @@ rvm --default use 2.3
 gem install rails
 	rails -v
 which ruby
+
+SASS
+
+gem install sass
+
+sass -v
